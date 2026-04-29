@@ -184,22 +184,6 @@ img   { max-width: 100%; }
 }
 .dropdown-item:hover .dropdown-item-arrow { opacity: 1; transform: translate(2px,-2px); }
 
-/* CTA Button */
-.nav-cta {
-  background: var(--clr-primary);
-  color: white;
-  border: none;
-  padding: 10px 22px;
-  border-radius: 50px;
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background var(--transition), transform var(--transition);
-  white-space: nowrap;
-}
-.nav-cta:hover { background: var(--clr-primary-dk); transform: translateY(-1px); }
-
 /* Hamburger — hidden on desktop */
 .hamburger {
   display: none;
@@ -278,8 +262,6 @@ img   { max-width: 100%; }
   transition: border-color var(--transition), color var(--transition);
 }
 .mobile-website-item:hover { border-color: var(--clr-primary); color: var(--clr-white); }
-
-.mobile-cta { margin-top: 12px; width: 100%; justify-content: center; }
 
 /* Navbar responsive */
 @media (max-width: 768px) {
